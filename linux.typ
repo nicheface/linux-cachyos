@@ -31,12 +31,14 @@
   [`Hiddify`], [`sudo chmod +x ` `appimage`文件提取],
   [`/etc/environment`],[追加`http_proxy=127.0.0.1:12334 https_proxy=127.0.0.1:12334`],
   [`paru`], [`paru -Syyu` `paru -S ` `paru -Rs ` 软件管理],
-  [`vscodium`], [编码],
-  [`zed`],[编码],
+  [`vscodium or Zed` ], [编码],
   [`helix`],[`tui`编码，配置查看`wiki`],
+  [`yazi`],[`tui file manager`],
+  [`zellij`],[`tmux`替代品],
+  [`rainfrog`],[`tui db manager`],
   [`btop++`],[系统监控],
   [`uv`],[`python`管理],
-  [`rsutup`],[`rustup defalut nightly`],
+  [`rustup`],[`rustup defalut nightly`],
   [`alacritty` `fish`],[终端与`shell`],
   [`fcitx5-rime`] , [`fcitx5`,`fcitx-configtool`,`fcitx5-rime` ],
   [`typst`],[类似`latex`语言，使用`code`扩展 `tinymist` 或者`typst.app`],
@@ -45,7 +47,7 @@
 #table(
   table.header[`code`扩展],
   [`ra`],[`rust`静态检查],
-  [`pyright`,`ruff`,`mypt check`],[`python` 静态检查],
+  [`pyright`,`ruff`,`mypy check`],[`python` 静态检查],
   [`blockman`],[缩进],
   [`tongyi`],[`ai`编程],
   [`jupyter`],[`jupyter`支持],
@@ -54,7 +56,7 @@
   [`Git Graph`],[可视化变更]
 )
 #table(
-  table.header[`WM`推荐],
+  table.header[`WM or DE`推荐],
   [`cosmic`],[`rust`编写，`system76`，`popos`],
   [`wayfire`],[插件多，效果酷],
   [`hyprland`],[动效好],
